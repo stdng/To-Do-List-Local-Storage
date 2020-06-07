@@ -42,7 +42,7 @@ ul {
     position: relative;
     overflow: hidden;
     width: 6rem;
-    background-color: #EAF0F9;
+    background-color: #FBF7FC;
     cursor: pointer;
     line-height: 2;
     margin: 0;
@@ -54,6 +54,9 @@ ul {
     transition: transform .125s;
     font-family: 'Nunito', sans-serif;
     letter-spacing: .50px;
+    border: 1px solid #848588;
+    color: #3A3C40;
+
 }
 
 label {
@@ -64,5 +67,6 @@ input[type="text"] {
     height: 1.4em;
     border-radius: 4px;
     font-family: 'Nunito', sans-serif;
+    border: 2px solid #848588;
 
 }
