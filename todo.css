@@ -1,0 +1,68 @@
+.design {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 440px;
+    height: 500px;
+    background: #FCFCFC;
+    border-radius: 10px;
+    box-shadow: 0 7px 30px rgba(62, 9, 11, .3);
+}
+
+form {
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: #FAE2F3;
+}
+
+ul {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    list-style-position: inside;
+}
+
+.rmv {
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+
+
+.submit {
+    position: relative;
+    overflow: hidden;
+    width: 6rem;
+    background-color: #EAF0F9;
+    cursor: pointer;
+    line-height: 2;
+    margin: 0;
+    padding: 0;
+    border-radius: 1.5rem;
+    font-size: .90rem;
+    text-transform: lowercase;
+    outline: none;
+    transition: transform .125s;
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: .50px;
+}
+
+label {
+    font-size: 1.3em;
+}
+
+input[type="text"] {
+    height: 1.4em;
+    border-radius: 4px;
+    font-family: 'Nunito', sans-serif;
+
+}

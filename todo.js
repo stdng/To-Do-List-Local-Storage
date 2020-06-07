@@ -9,6 +9,7 @@ form.addEventListener('submit', function (e) {
 
     let removeButton = document.createElement('Button');
     removeButton.innerText = 'x';
+    removeButton.classList.add('rmv');
     newElement.append(removeButton);
 
 
@@ -80,13 +81,13 @@ window.addEventListener('load', function (e) {
         localStorage.setItem('To Do: ', JSON.stringify(newLocalStorage))
     }
 
-
     for (let toDo of newLocalStorage) {
         let newElement = makeElement(toDo.name);
         ul.append(newElement);
 
         let removeButton = document.createElement('Button');
         removeButton.innerText = 'x';
+        removeButton.classList.add('rmv');
         newElement.append(removeButton);
 
         if (toDo.lineThrough === true) {
