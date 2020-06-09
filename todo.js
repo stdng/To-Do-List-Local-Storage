@@ -2,7 +2,7 @@ const form = document.querySelector('form');
 const ul = document.querySelector('.todolist');
 const taskInput = document.querySelector('input[type = "text"]');
 
-form.addEventListener('submit', function(e) {
+form.addEventListener('submit', function (e) {
 	e.preventDefault();
 	let newElement = makeElement(taskInput.value);
 	ul.append(newElement);
@@ -33,7 +33,7 @@ function makeElement(value) {
 	return task;
 }
 
-ul.addEventListener('click', function(e) {
+ul.addEventListener('click', function (e) {
 	if (e.target.tagName === 'BUTTON') {
 		e.target.parentElement.remove();
 
@@ -61,7 +61,7 @@ ul.addEventListener('click', function(e) {
 	}
 });
 
-window.addEventListener('load', function(e) {
+window.addEventListener('load', function (e) {
 	let newLocalStorage = [];
 	try {
 		newLocalStorage = JSON.parse(localStorage.getItem('To Do: '));
